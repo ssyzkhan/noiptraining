@@ -142,10 +142,14 @@
     <ClCompile Include="一本通.cpp" />
     <ClCompile Include="第三部分数据结构.cpp" />
     <ClCompile Include="第二部分基础算法.cpp" />
+    <ClCompile Include="第二部分基础算法回文数.cpp" />
+    <ClCompile Include="第二部分基础算法高精除以高精.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="第三部分数据结构.h" />
     <ClInclude Include="第二部分基础算法.h" />
+    <ClInclude Include="第二部分基础算法回文数.h" />
+    <ClInclude Include="第二部分基础算法高精除以高精.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

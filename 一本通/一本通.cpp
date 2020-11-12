@@ -14,8 +14,8 @@ using namespace std;
 int main()
 {
     BaseAlgorithm myUnit;
-    while (true)
-        myUnit.P1811101();
+    //while (true)
+        myUnit.P1881601();
 }
 
 // 运行程序: Ctrl + F5 或调试 >“开始执行(不调试)”菜单

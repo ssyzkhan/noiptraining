@@ -24,12 +24,24 @@
     <ClCompile Include="第二部分基础算法.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="第二部分基础算法高精除以高精.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="第二部分基础算法回文数.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="第三部分数据结构.h">
       <Filter>头文件</Filter>
     </ClInclude>
     <ClInclude Include="第二部分基础算法.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="第二部分基础算法高精除以高精.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="第二部分基础算法回文数.h">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>
