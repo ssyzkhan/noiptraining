@@ -138,3 +138,22 @@ void BaseAlgorithm::P1881601() {
 	cout << "Impossible";
 	return;
 }
+void BaseAlgorithm::P1932101() {
+	const int MAXN = 1001;
+	float a[MAXN],temp;
+	memset(a, 0, sizeof(a));
+	int n, k, i, j;
+	cin >> n;
+	for (i = 0; i < n; i++)
+		cin >> a[i];
+	for (i = 0; i < n; i++) {
+		k = i;
+		for (j = i + 1; i < n; i++) {
+			if (a[j] < a[k])k = j;
+		}
+		if (k != i)
+			temp = a[i]; a[i] = a[k]; a[k] = temp;
+	}
+	for (i = 0; i < n; i++)
+		cout << a[i] << " ";
+}

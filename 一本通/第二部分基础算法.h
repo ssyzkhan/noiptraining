@@ -8,4 +8,5 @@ public:
 	void P1851401();
 	void P1861501();
 	void P1881601();
+	void P1932101();
 };
